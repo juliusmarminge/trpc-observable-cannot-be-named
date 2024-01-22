@@ -16,42 +16,6 @@ $ pnpm build
    ▲ Next.js 14.1.1-canary.5
 
    Creating an optimized production build ...
-Failed to compile.
-
-./node_modules/.pnpm/@trpc+client@11.0.0-next-beta.216/node_modules/@trpc/client/dist/index.mjs + 19 modules
-Cannot get final name for export 'observable' of ./node_modules/.pnpm/@trpc+core@11.0.0-next-beta.216/node_modules/@trpc/core/dist/observable/index.mjs
-```
-
-Then install `11.0.0-alpha-tmp-opt-peers.204`:
-
-```bash
-$ pnpm install
-Packages: +4 -4
-++++----
-Progress: resolved 41, reused 33, downloaded 0, added 4, done
-
-dependencies:
-
-- @trpc/client 11.0.0-next-beta.216
-+ @trpc/client 11.0.0-alpha-tmp-opt-peers.204
-- @trpc/next 11.0.0-next-beta.216
-+ @trpc/next 11.0.0-alpha-tmp-opt-peers.20
-- @trpc/server 11.0.0-next-beta.216
-+ @trpc/server 11.0.0-alpha-tmp-opt-peers.204
-
-Done in 1.6s
-
-```
-
-```bash
-$ pnpm build
-
-> trpc-observable-cannot-be-named@0.1.0 build /Users/julius/dev/sandbox/trpc-observable-cannot-be-named
-> next build
-
-   ▲ Next.js 14.1.1-canary.5
-
-   Creating an optimized production build ...
  ✓ Compiled successfully
  ✓ Linting and checking validity of types
  ✓ Collecting page data
@@ -69,4 +33,42 @@ Route (app)                              Size     First Load JS
 
 
 ○  (Static)  prerendered as static content
+```
+
+Then install `11.0.0-next-beta-208`:
+
+```bash
+$ pnpm install
+Packages: +4 -4
+++++----
+Progress: resolved 41, reused 33, downloaded 0, added 4, done
+
+dependencies:
+
+- @trpc/client 11.0.0-next-beta.206
++ @trpc/client 11.0.0-next-beta-208
+- @trpc/next 11.0.0-next-beta.206
++ @trpc/next 11.0.0-next-beta-208
+- @trpc/server 11.0.0-next-beta.206
++ @trpc/server 11.0.0-next-beta-208
+
+Done in 1.6s
+
+```
+
+```bash
+$ pnpm build
+
+pnpm build
+
+> trpc-observable-cannot-be-named@0.1.0 build /Users/julius/dev/sandbox/trpc-observable-cannot-be-named
+> next build
+
+   ▲ Next.js 14.1.1-canary.5
+
+   Creating an optimized production build ...
+Failed to compile.
+
+./node_modules/.pnpm/@trpc+client@11.0.0-next-beta.208/node_modules/@trpc/client/dist/index.mjs + 19 modules
+Cannot get final name for export 'observable' of ./node_modules/.pnpm/@trpc+core@11.0.0-next-beta.208/node_modules/@trpc/core/dist/observable/index.mjs
 ```
