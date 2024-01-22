@@ -35,7 +35,7 @@ Route (app)                              Size     First Load JS
 ○  (Static)  prerendered as static content
 ```
 
-Then install `11.0.0-next-beta-208` (this is the version published after bumping rollup: https://github.com/trpc/trpc/pull/5347):
+Then install `11.0.0-next-beta.208` (this is the version published after bumping rollup: https://github.com/trpc/trpc/pull/5347):
 
 ```bash
 $ pnpm install
@@ -46,11 +46,11 @@ Progress: resolved 41, reused 33, downloaded 0, added 4, done
 dependencies:
 
 - @trpc/client 11.0.0-next-beta.206
-+ @trpc/client 11.0.0-next-beta-208
++ @trpc/client 11.0.0-next-beta.208
 - @trpc/next 11.0.0-next-beta.206
-+ @trpc/next 11.0.0-next-beta-208
++ @trpc/next 11.0.0-next-beta.208
 - @trpc/server 11.0.0-next-beta.206
-+ @trpc/server 11.0.0-next-beta-208
++ @trpc/server 11.0.0-next-beta.208
 
 Done in 1.6s
 
