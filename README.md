@@ -33,16 +33,11 @@ Progress: resolved 41, reused 33, downloaded 0, added 4, done
 dependencies:
 
 - @trpc/client 11.0.0-next-beta.216
-
-* @trpc/client 11.0.0-alpha-tmp-opt-peers.204
-
++ @trpc/client 11.0.0-alpha-tmp-opt-peers.204
 - @trpc/next 11.0.0-next-beta.216
-
-* @trpc/next 11.0.0-alpha-tmp-opt-peers.204
-
++ @trpc/next 11.0.0-alpha-tmp-opt-peers.20
 - @trpc/server 11.0.0-next-beta.216
-
-* @trpc/server 11.0.0-alpha-tmp-opt-peers.204
++ @trpc/server 11.0.0-alpha-tmp-opt-peers.204
 
 Done in 1.6s
 
