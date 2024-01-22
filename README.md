@@ -72,3 +72,8 @@ Failed to compile.
 ./node_modules/.pnpm/@trpc+client@11.0.0-next-beta.208/node_modules/@trpc/client/dist/index.mjs + 19 modules
 Cannot get final name for export 'observable' of ./node_modules/.pnpm/@trpc+core@11.0.0-next-beta.208/node_modules/@trpc/core/dist/observable/index.mjs
 ```
+
+## References
+
+- NPM code for 206 (working): https://www.npmjs.com/package/@trpc/server/v/11.0.0-next-beta.206?activeTab=code
+- NPM code for 208 (broken): https://www.npmjs.com/package/@trpc/server/v/11.0.0-next-beta.208?activeTab=code
