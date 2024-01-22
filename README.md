@@ -75,5 +75,9 @@ Cannot get final name for export 'observable' of ./node_modules/.pnpm/@trpc+core
 
 ## References
 
-- NPM code for 206 (working): https://www.npmjs.com/package/@trpc/server/v/11.0.0-next-beta.206?activeTab=code
-- NPM code for 208 (broken): https://www.npmjs.com/package/@trpc/server/v/11.0.0-next-beta.208?activeTab=code
+- NPM code for 206 (working):
+  - https://www.npmjs.com/package/@trpc/client/v/11.0.0-next-beta.206?activeTab=code
+  - https://www.npmjs.com/package/@trpc/core/v/11.0.0-next-beta.206?activeTab=code
+- NPM code for 208 (broken):
+  - https://www.npmjs.com/package/@trpc/client/v/11.0.0-next-beta.208?activeTab=code
+  - https://www.npmjs.com/package/@trpc/core/v/11.0.0-next-beta.208?activeTab=code
