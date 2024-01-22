@@ -5,6 +5,15 @@ settings:
   excludeLinksFromLockfile: false
 
 dependencies:
+  '@trpc/client':
+    specifier: 11.0.0-next-beta.216
+    version: 11.0.0-next-beta.216
+  '@trpc/next':
+    specifier: 11.0.0-next-beta.216
+    version: 11.0.0-next-beta.216(@trpc/client@11.0.0-next-beta.216)(next@14.1.1-canary.5)(react-dom@18.2.0)(react@18.2.0)
+  '@trpc/server':
+    specifier: 11.0.0-next-beta.216
+    version: 11.0.0-next-beta.216
   next:
     specifier: 14.1.1-canary.5
     version: 14.1.1-canary.5(react-dom@18.2.0)(react@18.2.0)
@@ -14,6 +23,9 @@ dependencies:
   react-dom:
     specifier: ^18
     version: 18.2.0(react@18.2.0)
+  server-only:
+    specifier: ^0.0.1
+    version: 0.0.1
 
 devDependencies:
   '@types/node':
@@ -120,6 +132,44 @@ packages:
     resolution: {integrity: sha512-E4KcWTpoLHqwPHLxidpOqQbcrZVgi0rsmmZXUle1jXmJfuIf/UWpczUJ7MZZ5tlxytgJXyp0w4PGkkeLiuIdZw==}
     dependencies:
       tslib: 2.6.2
+    dev: false
+
+  /@trpc/client@11.0.0-next-beta.216:
+    resolution: {integrity: sha512-u3+G3vHVffX2X3cvIQsDJ/fcxLusntARd2be0PPLHJcy58HK/qdHkpu2cuILmLo0xHxcBQGQYNaHybKS1Z0JKg==}
+    dependencies:
+      '@trpc/core': 11.0.0-next-beta.216
+    dev: false
+
+  /@trpc/core@11.0.0-next-beta.216:
+    resolution: {integrity: sha512-dmdSFeSzArkmdZvnymoQwAju0QBODC3PhLgBKTYgVIj0HATE/OJsPAKOxiqdcgm3YyN/zABm+ntiYmjLBJzTCA==}
+    dev: false
+
+  /@trpc/next@11.0.0-next-beta.216(@trpc/client@11.0.0-next-beta.216)(next@14.1.1-canary.5)(react-dom@18.2.0)(react@18.2.0):
+    resolution: {integrity: sha512-VP3KViLY6XtNjZcjfZmIhthRLOFNH0i5B1IH32prlXE6qKQr2LLSjM8ptrEDiWytVyznuoUBHZxVsqEVunJ27g==}
+    peerDependencies:
+      '@tanstack/react-query': ^5.0.0
+      '@trpc/client': 11.0.0-next-beta.216+ccd4f1b0e
+      '@trpc/react-query': 11.0.0-next-beta.216+ccd4f1b0e
+      next: '*'
+      react: '>=16.8.0'
+      react-dom: '>=16.8.0'
+    peerDependenciesMeta:
+      '@tanstack/react-query':
+        optional: true
+      '@trpc/react-query':
+        optional: true
+    dependencies:
+      '@trpc/client': 11.0.0-next-beta.216
+      '@trpc/core': 11.0.0-next-beta.216
+      next: 14.1.1-canary.5(react-dom@18.2.0)(react@18.2.0)
+      react: 18.2.0
+      react-dom: 18.2.0(react@18.2.0)
+    dev: false
+
+  /@trpc/server@11.0.0-next-beta.216:
+    resolution: {integrity: sha512-Cm1DwGm9yLApL7IBVoKYpsn1zq6LxV/CR4kwNNFS/uhe/zqsWP1lATdlLza+4SZe+jEEUrM/DRwd/h+pZrmiaw==}
+    dependencies:
+      '@trpc/core': 11.0.0-next-beta.216
     dev: false
 
   /@types/node@20.11.5:
@@ -263,6 +313,10 @@ packages:
     resolution: {integrity: sha512-CtuThmgHNg7zIZWAXi3AsyIzA3n4xx7aNyjwC2VJldO2LMVDhFK+63xGqq6CsJH4rTAt6/M+N4GhZiDYPx9eUw==}
     dependencies:
       loose-envify: 1.4.0
+    dev: false
+
+  /server-only@0.0.1:
+    resolution: {integrity: sha512-qepMx2JxAa5jjfzxG79yPPq+8BuFToHd1hm7kI+Z4zAq1ftQiP7HcxMhDDItrbtwVeLg/cY2JnKnrcFkmiswNA==}
     dev: false
 
   /source-map-js@1.0.2:
