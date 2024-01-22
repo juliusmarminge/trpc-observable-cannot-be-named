@@ -35,7 +35,7 @@ Route (app)                              Size     First Load JS
 ○  (Static)  prerendered as static content
 ```
 
-Then install `11.0.0-next-beta-208`:
+Then install `11.0.0-next-beta-208` (this is the version published after bumping rollup: https://github.com/trpc/trpc/actions/runs/7581886883/job/20650347179#step:10:20):
 
 ```bash
 $ pnpm install
