@@ -25,9 +25,6 @@ Cannot get final name for export 'observable' of ./node_modules/.pnpm/@trpc+core
 Then install `11.0.0-alpha-tmp-opt-peers.204`:
 
 ```bash
-
-```
-
 $ pnpm install
 Packages: +4 -4
 ++++----
@@ -49,7 +46,7 @@ dependencies:
 
 Done in 1.6s
 
-````
+```
 
 ```bash
 $ pnpm build
@@ -77,4 +74,4 @@ Route (app)                              Size     First Load JS
 
 
 ○  (Static)  prerendered as static content
-````
+```
